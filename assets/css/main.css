@@ -2,7 +2,7 @@
   --complimentary: #815205;
   --text: black;
   --code: black;
-  --text-dim: #444;
+  --text-dim: #171717;
   --link: #3366cc;
   --link-visited: #795cb2;
   --code-background: #f3f5f7;
@@ -21,7 +21,7 @@
     --complimentary: #815205;
     --text: #d8d8d8;
     --code: #cbcbcb;
-    --text-dim: #a7a7a7;
+    --text-dim: #e0e0e0;
     /* --link: #8cb4ff; */
     --link: #88a9e9;
     --link-visited: #a390ca;
@@ -71,7 +71,6 @@ body {
     Helvetica,
     sans-serif;
   line-height: 1.54;
-  text-align: justify;
 }
 
 @media screen and (min-width: 760px) {
@@ -84,7 +83,7 @@ body {
 @media screen and (min-width: 1150px) {
   body {
     margin: auto;
-    max-width: 62vw;
+    max-width: 38vw;
   }
 }
 
@@ -94,7 +93,7 @@ main {
 
 /* BASIC HTML ELEMENTS */
 p {
-  margin: 0.7em 0;
+  margin: 1em 0;
 }
 
 h1 {
@@ -114,10 +113,9 @@ h2 {
 }
 
 h3 {
-  font-size: 1.3em;
-  font-weight: 700;
+  font-size: 1.25em;
+  font-weight: 600;
   margin-bottom: 0.5em;
-  margin-top: 1.2em;
   padding-bottom: 0;
 }
 
